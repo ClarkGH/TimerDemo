@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onFinish(){
                 //countdown done
+                Log.i("timer status", "finished");
             }
         };
 
