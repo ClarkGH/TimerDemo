@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 handler.postDelayed(this, 1000);
             }
         };
+        handler.post(run);
     }
 }
