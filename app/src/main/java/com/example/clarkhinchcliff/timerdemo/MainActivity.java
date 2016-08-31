@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Handler handler = new Handler();
+        final Handler handler = new Handler();
         Runnable run = new Runnable() {
             @Override
             public void run() {
