@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 //countdown done
                 Log.i("timer status", "finished");
             }
-        };
+        }.start();
 
 //        final Handler handler = new Handler();
 //        Runnable run = new Runnable() {
